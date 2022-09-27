@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "allowJs": false,
+    "checkJs": false,
+    "sourceMap": true,
+    "removeComments": false,
+    "strict": false,
+    "declaration": true,
+    "baseUrl": "./src",
+    "target": "es2018",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": false,
+    "skipLibCheck": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ]
+}
